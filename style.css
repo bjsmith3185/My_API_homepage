@@ -1,0 +1,187 @@
+
+
+/* index.html page  */
+
+body {
+    background: lightgray;
+}
+
+.page-title {
+    margin-left: 100px;
+    color: blue;
+}
+
+.page-info {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.info-ul {
+    margin-left: 50px;
+}
+
+.info-li {
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue;
+    margin: 4px;
+}
+
+
+/* search.html page  */
+
+.search-page-info {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* docs.html page  */
+
+.docs-page {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.docs-page-code {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.docs-page-code1 {
+    margin-left: 15px;
+}
+
+.docs-page-code2 {
+    margin-left: 15px;
+}
+
+.docs-page-code3 {
+    margin-left: 30px;
+}
+
+.docs-page-code4 {
+    margin-left: 15px;
+}
+
+
+
+
+.create-api-key-area {
+    margin-left: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+    margin-top: 50px;
+}
+
+
+
+
+.search-area {
+    margin-left: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    background: orange;
+
+}
+
+.serach-area2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+}
+
+
+.clear-area {
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+}
+
+.clear-results {
+    margin-top: 10px;
+    background:red;
+}
+
+
+
+#results {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.results-area {
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 40%
+}
+.result-div-container {
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+    border: 2px solid black;
+    background: lightblue;
+    padding: 5px;
+    width: 80%;
+}
+
+
+.result-name-div {
+    font-size: 24px;
+    font-weight: bolder;
+    color: blue;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

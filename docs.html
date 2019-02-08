@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APi getter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div>
+
+        <h1 class="page-title">Welcome to my Practice API!</h1>
+        
+        <div class="search-page-info"><a href="index.html">Back to Home page.</a></div>
+
+        <div class="docs-page">Structure: </div>
+        <div class="docs-page-code">API base = https://my-api-server-bjs.herokuapp.com/api/persons?person </div>
+
+        <div class="docs-page">Practice API key</div>
+        <div class="docs-page-code">&key=123456 (must be included in the request)</div>
+
+        <div class="docs-page">Query options</div>
+        <div class="docs-page-code">
+            <ul>
+                <li>&all=person (if all is used all other queries are ignored)</li>
+                <li>&age=</li>
+                <li>&last_name=</li>
+                <li>&first_name=</li>
+            </ul>
+        </div>
+
+        <div class="docs-page">Example api request for persons with first name 'brian'</div>
+        <div class="docs-page-code">
+            https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&first_name=brian</div>
+
+        <div class="docs-page">Example api request for all persons</div>
+        <div class="docs-page-code">https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&all=person
+        </div>
+
+
+        <div class="docs-page">Example using fetch()</div>
+        <div class="docs-page-code">var url =
+            "https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&first_name=brian";</div>
+
+        <div class="docs-page-code">fetch(url)
+            <div class="docs-page-code1">.then((resp) => resp.json())</div>
+            <div class="docs-page-code2">.then(function(data) {</div>
+            <div class="docs-page-code3"> console.log(data)</div>
+            <div class="docs-page-code4">})</div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

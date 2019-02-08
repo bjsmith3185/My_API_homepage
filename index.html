@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APi getter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div>
+            <h1 class="page-title">Welcome to my Practice API!</h1>
+        
+        <div class="page-info">This api provides access to the persons database. It allows you to search by
+        </div>
+        <ul class="info-ul">
+            <li class="info-li">first name</li>
+            <li class="info-li">last name</li>
+            <li class="info-li">age</li>
+            <li class="info-li">or, all results</li>
+        </ul>
+        <div class="page-info">To use this api in your code you will need a personal API Key. It is very easy to obtain this key. Simply enter a valid email address in the input field and click Submit. Your API Key will arrive shortly!</div>
+
+        <div class="page-info">To use the API without the assistance of .fetch() or an AJAX request visit the test page <a href="search.html">Here</a>!</div>
+
+        <div class="page-info">To view the docs click <a href="docs.html">Here</a>!</div>
+
+        <div class="page-info">Please keep in mind this API is hosted on Heroku so it could possibly take 30 seconds to wake up when a request is submitted. You can wake up the API <a target="_blank" href="https://my-api-server-bjs.herokuapp.com">Here</a>. </div>
+
+ 
+
+
+
+        <div class="create-api-key-area">
+            <label for="api">Enter email for api key</label>
+            <input name="api" type="text" id="apiRequest">
+            <br />
+
+            <button class="submit-btn" id="getApiKey">Submit</button>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

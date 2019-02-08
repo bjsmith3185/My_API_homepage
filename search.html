@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APi getter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div>
+            <h1 class="page-title">Welcome to my Practice API!</h1>
+            
+            <div class="search-page-info"><a href="index.html">Back to Home page.</a></div>
+
+        <div class="search-page-info">This page will allow you to use the API to search the people database and view the results on the screen. If you would like to use the API in your code please submit a request on the main page <a href="index.html">Here</a>.</div>
+
+        
+        <div class="page-info">To view the docs click <a href="docs.html">Here</a>!</div>
+        
+
+        <div class="search-area">
+            <label for="first">Enter a first name</label>
+            <input name="first" type="text" id="firstName">
+            <br />
+            <label for="last">Enter a last name</label>
+            <input name="last" type="text" id="lastName">
+            <br />
+            <label for="age">Enter a age</label>
+            <input name="age" type="text" id="age">
+            <br />
+
+            <button class="submit-btn" id="submit">Submit</button>
+        </div>
+
+        <div class="serach-area2">
+
+            <div>Get all results in api.</div>
+            <button class="submit-btn" id="submit-all">All</button>
+        </div>
+
+        <div class="clear-area">
+            <div>Clear displayed results</div>
+            <button class="clear-results" id="clear">Clear Results</button>
+        </div>
+
+        <div class="results-area">
+            <hr />
+            <div id="results"></div>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
