@@ -1,12 +1,6 @@
 
 
 
-
-
-
-
-
-
 $("#submit").on("click", function () {
     $("#results").empty();
 
@@ -55,7 +49,6 @@ $("#submit").on("click", function () {
 
                 container.prepend(nameDiv, ageDiv)
                 $("#results").prepend(container)
-
             }
         }
 
@@ -68,13 +61,9 @@ $("#submit").on("click", function () {
 
 
 
-
 $("#submit-all").on("click", function () {
     $("#results").empty();
-
-    var URLall = "https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&all=person"
-
-  
+    var URLall = "https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&all=people"
     console.log(URLall)
 
     $.ajax({
@@ -96,7 +85,6 @@ $("#submit-all").on("click", function () {
 
                 container.prepend(nameDiv, ageDiv)
                 $("#results").prepend(container)
-
             }
         }
         $("#firstName").val("");
@@ -105,16 +93,17 @@ $("#submit-all").on("click", function () {
     });
 });
 
+
 $("#clear").on("click", function () {
     $("#results").empty();
-})
+});
 
 
 
-$("#getApiKey").on("click", function() {
+$("#getApiKey").on("click", function () {
     console.log("clickec");
-    // var URLall = "https://my-api-server-bjs.herokuapp.com/api/persons/all?person&key=1234";
-    var URL = "http://localhost:3001/key";
+    // var URL = "http://localhost:3001/key";
+    var URL = "https://my-api-server-bjs.herokuapp.com/key";
 
     var email = $("#apiRequest").val().trim()
     var data = {
@@ -128,11 +117,8 @@ $("#getApiKey").on("click", function() {
         data: data
     }).then(function (response) {
         console.log(response);
-
     })
-
-
-})
+});
 
 
 
