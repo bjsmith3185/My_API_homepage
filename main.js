@@ -11,6 +11,8 @@ $("#submit").on("click", function () {
     var age = $("#age").val()
     console.log(age)
 
+    // var baseURL = "https://localhost:3001/api/persons?person"
+
     var baseURL = "https://my-api-server-bjs.herokuapp.com/api/persons?person"
 
     var key = "&key=123456"
@@ -63,7 +65,9 @@ $("#submit").on("click", function () {
 
 $("#submit-all").on("click", function () {
     $("#results").empty();
-    var URLall = "https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&all=people"
+
+    //var URLall = "https://localhost:3001/api/persons?person&key=123456&all=people"
+     var URLall = "https://my-api-server-bjs.herokuapp.com/api/persons?person&key=123456&all=people"
     console.log(URLall)
 
     $.ajax({
