@@ -105,8 +105,8 @@ $("#clear").on("click", function () {
 
 
 $("#getApiKey").on("click", function () {
-    console.log("clickec");
-    // var URL = "http://localhost:3001/key";
+    console.log("clicked");
+    //  var URL = "http://localhost:3001/key";
     var URL = "https://my-api-server-bjs.herokuapp.com/key";
 
     var email = $("#apiRequest").val().trim()
@@ -120,7 +120,9 @@ $("#getApiKey").on("click", function () {
         method: "POST",
         data: data
     }).then(function (response) {
-        console.log(response);
+        // console.log(response);
+        $("#apiRequest").val("");
+
     })
 });
 
